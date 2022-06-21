@@ -58,6 +58,7 @@ class App extends Component {
 
 	render() {
 		return (
+      <>
 			<div>
 				<img src={logo} width="100" height="100" className="logo" alt="logo" />
 				<h1 className="app-title">LCO ToDo App</h1>
@@ -98,8 +99,12 @@ class App extends Component {
 						</ul>
 					</div>
 				</div>
-        
 			</div>
+      <div></div>
+      <footer>
+      <p> © Copyright Sumana. All rights reserved.</p>
+      </footer>
+      </>
 		);
 	}
 }
