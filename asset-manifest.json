@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/todoWithClassComponent/static/css/main.b96e562e.chunk.css",
+    "main.js": "/todoWithClassComponent/static/js/main.04cd6d90.chunk.js",
+    "main.js.map": "/todoWithClassComponent/static/js/main.04cd6d90.chunk.js.map",
+    "runtime-main.js": "/todoWithClassComponent/static/js/runtime-main.45fea4c4.js",
+    "runtime-main.js.map": "/todoWithClassComponent/static/js/runtime-main.45fea4c4.js.map",
+    "static/js/2.a5d92c5c.chunk.js": "/todoWithClassComponent/static/js/2.a5d92c5c.chunk.js",
+    "static/js/2.a5d92c5c.chunk.js.map": "/todoWithClassComponent/static/js/2.a5d92c5c.chunk.js.map",
+    "static/js/3.c4968a79.chunk.js": "/todoWithClassComponent/static/js/3.c4968a79.chunk.js",
+    "static/js/3.c4968a79.chunk.js.map": "/todoWithClassComponent/static/js/3.c4968a79.chunk.js.map",
+    "index.html": "/todoWithClassComponent/index.html",
+    "static/css/main.b96e562e.chunk.css.map": "/todoWithClassComponent/static/css/main.b96e562e.chunk.css.map",
+    "static/js/2.a5d92c5c.chunk.js.LICENSE.txt": "/todoWithClassComponent/static/js/2.a5d92c5c.chunk.js.LICENSE.txt",
+    "static/media/LCO-logo-white.b9eb8ceb.png": "/todoWithClassComponent/static/media/LCO-logo-white.b9eb8ceb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45fea4c4.js",
+    "static/js/2.a5d92c5c.chunk.js",
+    "static/css/main.b96e562e.chunk.css",
+    "static/js/main.04cd6d90.chunk.js"
+  ]
+}
