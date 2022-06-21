@@ -2,20 +2,63 @@ body {
   background: #86109b;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
+  color: #fff;
+  
+}
+/* .todoPage{
+  min-height: 100vh;
+} */
+
+.container {
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  /* min-height: 100vh; */
+ 
 }
 
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 }
 
-.input-text {
-  display: inline;
+.app-title {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+form{
+
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+input {
+  
+  flex: 0.6;
   margin: 0;
+  padding: 15px;
   border: none;
   border-radius: 0.4rem;
-  padding: 10px;
+
+}
+
+.add-btn {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #7313cb;
+  flex: 0.4;
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 0.4rem;
+  border: none;
+ 
 }
 
 .list ul li button {
@@ -31,25 +74,9 @@ body {
   border-radius: 0.4rem;
   display: inline-block;
   border: none;
+  
 }
 
-.add-btn {
-  color: #fff !important;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #7313cb;
-  margin: 20px;
-  padding: 10px;
-  border-radius: 0.4rem;
-  display: inline-block;
-  border: none;
-}
-
-.app-title {
-  text-align: center;
-  color: #fff;
-  font-size: 70px;
-}
 ul {
   /* remove default padding and margin from ul*/
   margin: 0px;
@@ -69,15 +96,22 @@ ul {
   position: relative;
 }
 
-.container {
-  color: #fff;
-  max-width: 500px;
-  margin: auto;
+p{
+  text-align: center;
 }
 
 @media screen and (max-width: 767px){
-  .input-text {
-    margin-left: 10px;
+
+  .app-title{
+    font-size: 30px;
+  }
+ 
+  form{
+    flex-direction: column;
+  }
+  .add-btn{
+    margin-left: 0px;
+    margin-top: 20px;
   }
   .list ul li{
     width: 80%;
