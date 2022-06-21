@@ -3,21 +3,15 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   color: #fff;
-  /* display:grid; 
-  grid-template-rows: auto 1fr auto;  
-  min-height:100vh; */
-  
+
 }
-/* .todoPage{
-  min-height: 100vh;
-} */
+
 
 .container {
   color: #fff;
   max-width: 500px;
   margin: auto;
   padding: 20px;
-  /* min-height: 100vh; */
  
 }
 
